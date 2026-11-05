@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://qh1q7ays0m2c"]
+
+[ext_resource type="Script" uid="uid://6f6vrq6rtnr6" path="res://features/map/map_context.gd" id="1_gh0an"]
+
+[node name="MapContext" type="Node3D" unique_id=1282333158]
+script = ExtResource("1_gh0an")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1057195094]
+
+[node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer" unique_id=1310061346]
+offset_left = 8.0
+offset_top = 173.0
+offset_right = 107.0
+offset_bottom = 213.0
+
+[node name="Label" type="Label" parent="CanvasLayer/HBoxContainer" unique_id=513197904]
+layout_mode = 2
+text = "Map Context"

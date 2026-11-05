@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://blkdd5totl5km"]
+
+[ext_resource type="Script" uid="uid://cxg0l7nmcfd5r" path="res://features/main_menu/main_menu_context.gd" id="1_a16ur"]
+
+[node name="MainMenuContext" type="Node3D" unique_id=290460408]
+script = ExtResource("1_a16ur")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=149522350]
+
+[node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer" unique_id=135464734]
+offset_left = 1.0
+offset_top = 53.0
+offset_right = 212.0
+offset_bottom = 93.0
+
+[node name="Label" type="Label" parent="CanvasLayer/HBoxContainer" unique_id=1358926911]
+layout_mode = 2
+text = "Menu Context"
+
+[node name="start_game" type="Button" parent="CanvasLayer/HBoxContainer" unique_id=829184788]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Go to game"

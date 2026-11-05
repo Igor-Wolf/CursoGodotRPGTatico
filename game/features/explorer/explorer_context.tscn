@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://bhup2i8b35rsx"]
+
+[ext_resource type="Script" uid="uid://dhtiiqfsuexb5" path="res://features/explorer/explorer_context.gd" id="1_a8rxe"]
+
+[node name="ExplorerContext" type="Node3D" unique_id=1731127905]
+script = ExtResource("1_a8rxe")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1482012117]
+
+[node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer" unique_id=1022612060]
+offset_left = 7.0
+offset_top = 159.0
+offset_right = 137.0
+offset_bottom = 199.0
+
+[node name="Label" type="Label" parent="CanvasLayer/HBoxContainer" unique_id=960263328]
+layout_mode = 2
+text = "Explorer Context"

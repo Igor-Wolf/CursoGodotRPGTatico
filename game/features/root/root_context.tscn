@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://dpatw6jv6wjxa"]
+
+[ext_resource type="Script" uid="uid://d1fm1odjmuck4" path="res://features/root/root_context.gd" id="1_vrd1y"]
+[ext_resource type="PackedScene" uid="uid://blkdd5totl5km" path="res://features/main_menu/main_menu_context.tscn" id="2_rruap"]
+[ext_resource type="PackedScene" uid="uid://dcpntbca2o6by" path="res://features/game/game_context.tscn" id="3_ttk5s"]
+
+[node name="root_context" type="Node3D" unique_id=141688303]
+script = ExtResource("1_vrd1y")
+main_menu_scene = ExtResource("2_rruap")
+game_context_scene = ExtResource("3_ttk5s")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=411349505]
+
+[node name="Label" type="Label" parent="CanvasLayer" unique_id=2123143316]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Root Context"
