@@ -1,0 +1,64 @@
+[gd_resource type="Theme" format=3 uid="uid://6a6143glf0rd"]
+
+[ext_resource type="FontFile" uid="uid://t81ux8bc10dr" path="res://features/theme/fonts/EBGaramond-Regular.ttf" id="1_u0pvg"]
+[ext_resource type="Texture2D" uid="uid://bk53hae8jnfmb" path="res://import/kenney_fantasy-ui-borders/PNG/Default/Panel/panel-022.png" id="2_i3d6m"]
+[ext_resource type="Texture2D" uid="uid://bjeolll67b21" path="res://import/kenney_fantasy-ui-borders/PNG/Default/Panel/panel-001.png" id="2_rqcag"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_i3d6m"]
+texture = ExtResource("2_rqcag")
+texture_margin_left = 16.0
+texture_margin_top = 16.0
+texture_margin_right = 16.0
+texture_margin_bottom = 16.0
+modulate_color = Color(0.73333335, 0.73333335, 0.73333335, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_bq205"]
+texture = ExtResource("2_i3d6m")
+texture_margin_left = 16.0
+texture_margin_top = 16.0
+texture_margin_right = 16.0
+texture_margin_bottom = 16.0
+modulate_color = Color(1.239, 1.326, 0, 0.804)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_rqcag"]
+texture = ExtResource("2_rqcag")
+texture_margin_left = 16.0
+texture_margin_top = 16.0
+texture_margin_right = 16.0
+texture_margin_bottom = 16.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_i5au5"]
+texture = ExtResource("2_i3d6m")
+texture_margin_left = 16.0
+texture_margin_top = 16.0
+texture_margin_right = 16.0
+texture_margin_bottom = 16.0
+modulate_color = Color(1, 1, 0.39607844, 1)
+
+[resource]
+Button/colors/font_color = Color(0.06666667, 0.06666667, 0.06666667, 1)
+Button/colors/font_disabled_color = Color(0.06666667, 0.06666667, 0.06666667, 1)
+Button/colors/font_focus_color = Color(0.06666667, 0.06666667, 0.06666667, 1)
+Button/colors/font_hover_color = Color(0.06666667, 0.06666667, 0.06666667, 1)
+Button/colors/font_pressed_color = Color(0.06666667, 0.06666667, 0.06666667, 1)
+Button/colors/icon_pressed_color = Color(0.06666667, 0.06666667, 0.06666667, 1)
+Button/fonts/font = ExtResource("1_u0pvg")
+Button/styles/disabled = SubResource("StyleBoxTexture_i3d6m")
+Button/styles/focus = SubResource("StyleBoxTexture_bq205")
+Button/styles/hover = SubResource("StyleBoxTexture_bq205")
+Button/styles/normal = SubResource("StyleBoxTexture_rqcag")
+Button/styles/pressed = SubResource("StyleBoxTexture_i5au5")
+HBoxContainer/constants/separation = 16
+Label/font_sizes/font_size = 16
+Label/fonts/font = ExtResource("1_u0pvg")
+MarginContainer/constants/margin_bottom = 16
+MarginContainer/constants/margin_left = 16
+MarginContainer/constants/margin_right = 16
+MarginContainer/constants/margin_top = 16
+TitleScreenLabel/base_type = &"Label"
+TitleScreenLabel/colors/font_shadow_color = Color(0, 0, 0, 1)
+TitleScreenLabel/constants/line_spacing = -34
+TitleScreenLabel/constants/shadow_offset_x = -3
+TitleScreenLabel/constants/shadow_offset_y = -2
+TitleScreenLabel/font_sizes/font_size = 64
+VBoxContainer/constants/separation = 7

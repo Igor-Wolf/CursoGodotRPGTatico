@@ -3,6 +3,8 @@ class_name RootContext extends Node3D
 
 var _current_context: Node
 
+var _music_player: AudioStreamPlayer
+
 func _ready() -> void:
 	build()
 	bind_dependences()
@@ -12,9 +14,13 @@ func _ready() -> void:
 @export var main_menu_scene: PackedScene
 @export var game_context_scene: PackedScene
 
+@export var temporary_sample_music_track: AudioStream
 
 func build() -> void:
-	print("build")
+	_music_player = AudioStreamPlayer.new()
+	_music_player.autoplay= true
+	_music_player.stream = temporary_sample_music_track
+	add_child(_music_player)
 	pass
 
 func bind_dependences() -> void:
@@ -24,7 +30,6 @@ func bind_dependences() -> void:
 
 func setup() -> void:
 	mount_main_menu()
-	#mount_game()
 
 	pass
 
@@ -40,7 +45,7 @@ func mount_main_menu() -> void:
 		
 	add_child(menu_context)
 	menu_context.build()
-	menu_context.bind_dependences()
+	menu_context.bind_dependences(_music_player)
 	menu_context.setup()
 	
 	menu_context.start_game_requested.connect(mount_game)

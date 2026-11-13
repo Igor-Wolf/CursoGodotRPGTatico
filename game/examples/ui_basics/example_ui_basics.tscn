@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://421i66gq0qph"]
+
+[node name="ExampleUiBasics" type="Node3D" unique_id=1865085194]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1980257103]
+
+[node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer" unique_id=61978208]
+offset_right = 143.0
+offset_bottom = 55.0
+
+[node name="MarginContainer" type="MarginContainer" parent="CanvasLayer/HBoxContainer" unique_id=1323607849]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="CanvasLayer/HBoxContainer/MarginContainer" unique_id=1113577463]
+layout_mode = 2
+text = "Hello!"
+
+[node name="MarginContainer2" type="MarginContainer" parent="CanvasLayer/HBoxContainer" unique_id=215860882]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="CanvasLayer/HBoxContainer/MarginContainer2" unique_id=1675388004]
+layout_mode = 2
+text = "Hello!"
+
+[node name="MarginContainer3" type="MarginContainer" parent="CanvasLayer/HBoxContainer" unique_id=1951767710]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="CanvasLayer/HBoxContainer/MarginContainer3" unique_id=862010369]
+layout_mode = 2
+text = "Hello!"

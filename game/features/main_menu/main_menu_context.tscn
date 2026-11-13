@@ -1,23 +1,39 @@
 [gd_scene format=3 uid="uid://blkdd5totl5km"]
 
 [ext_resource type="Script" uid="uid://cxg0l7nmcfd5r" path="res://features/main_menu/main_menu_context.gd" id="1_a16ur"]
+[ext_resource type="Theme" uid="uid://6a6143glf0rd" path="res://features/theme/main_theme.tres" id="2_av54u"]
+[ext_resource type="PackedScene" uid="uid://cgbno607iuls4" path="res://features/main_menu/ui_main_menu.tscn" id="2_e8bqb"]
+[ext_resource type="PackedScene" uid="uid://dkvxx7r7s53jj" path="res://features/main_menu/ui_settings_menu.tscn" id="4_1nepu"]
 
 [node name="MainMenuContext" type="Node3D" unique_id=290460408]
 script = ExtResource("1_a16ur")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=149522350]
 
-[node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer" unique_id=135464734]
-offset_left = 1.0
-offset_top = 53.0
-offset_right = 212.0
-offset_bottom = 93.0
+[node name="MarginContainer" type="MarginContainer" parent="CanvasLayer" unique_id=83086367]
+offset_right = 378.0
+offset_bottom = 335.0
+theme = ExtResource("2_av54u")
+theme_override_constants/margin_left = 24
+theme_override_constants/margin_top = 24
+theme_override_constants/margin_right = 24
+theme_override_constants/margin_bottom = 24
 
-[node name="Label" type="Label" parent="CanvasLayer/HBoxContainer" unique_id=1358926911]
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/MarginContainer" unique_id=345962029]
 layout_mode = 2
-text = "Menu Context"
 
-[node name="start_game" type="Button" parent="CanvasLayer/HBoxContainer" unique_id=829184788]
+[node name="label_title" type="Label" parent="CanvasLayer/MarginContainer/VBoxContainer" unique_id=830488646]
+layout_mode = 2
+theme_type_variation = &"TitleScreenLabel"
+text = " Tactics 
+ Game "
+horizontal_alignment = 1
+
+[node name="ui_main_menu" parent="CanvasLayer/MarginContainer/VBoxContainer" unique_id=1909584811 instance=ExtResource("2_e8bqb")]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+
+[node name="ui_settings_menu" parent="CanvasLayer/MarginContainer/VBoxContainer" unique_id=1591952622 instance=ExtResource("4_1nepu")]
 unique_name_in_owner = true
 layout_mode = 2
-text = "Go to game"
