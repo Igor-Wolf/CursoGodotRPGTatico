@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://dfs6wagdfhg7t"]
+
+[ext_resource type="PackedScene" uid="uid://dg5s08jf7ntj" path="res://examples/3d_characters/skeleton_rogue.tscn" id="2_gg2cu"]
+[ext_resource type="PackedScene" uid="uid://87wws6qq36vk" path="res://examples/3d_characters/ranger.tscn" id="2_y5ptx"]
+
+[node name="3dCharacterExampleScene" type="Node3D" unique_id=1880130699]
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=169984566]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3360956, 0.9680724, 2.922368)
+
+[node name="OmniLight3D" type="OmniLight3D" parent="." unique_id=1284814826]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3562691, 1.311279, 1.9612532)
+
+[node name="Skeleton_Rogue" parent="." unique_id=2101855548 instance=ExtResource("2_gg2cu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.8193755, 0, 0)
+
+[node name="Ranger" parent="." unique_id=196360438 instance=ExtResource("2_y5ptx")]

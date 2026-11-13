@@ -1,0 +1,39 @@
+[gd_scene format=3 uid="uid://87wws6qq36vk"]
+
+[ext_resource type="PackedScene" uid="uid://uujndelhekg2" path="res://import/KayKit_Adventurers_2.0_FREE/KayKit_Adventurers_2.0_FREE/Characters/fbx/Ranger.fbx" id="1_ddox7"]
+[ext_resource type="AnimationLibrary" uid="uid://pttfsrieqgpn" path="res://examples/3d_characters/character_animations_example.res" id="2_mcn6a"]
+
+[node name="Ranger" unique_id=196360438 instance=ExtResource("1_ddox7")]
+
+[node name="Skeleton3D" parent="Rig_Medium" parent_id_path=PackedInt32Array(115273757) index="0" unique_id=51842103]
+bones/1/position = Vector3(-2.3665827e-30, 0.39206383, 0)
+bones/1/rotation = Quaternion(-1.1112795e-10, 0.043157753, 2.5724098e-09, 0.99906826)
+bones/2/rotation = Quaternion(5.349887e-15, 1.3312026e-30, -2.4980015e-16, 1)
+bones/3/rotation = Quaternion(6.9388877e-18, 0, -2.220446e-16, 1)
+bones/4/position = Vector3(0.21200734, 0.13413203, 8.330719e-08)
+bones/4/rotation = Quaternion(-0.55990636, -0.06088025, -0.64397454, 0.5177793)
+bones/5/rotation = Quaternion(-6.429912e-09, -2.786295e-08, -0.49471927, 0.8690529)
+bones/7/rotation = Quaternion(-0.32106534, -0.32531863, 0.14572589, 0.87741035)
+bones/8/position = Vector3(6.880967e-09, 0.096125074, -0.05750008)
+bones/8/rotation = Quaternion(-1.9392813e-08, 2.2754042e-08, -0.7071068, 0.7071067)
+bones/9/position = Vector3(-0.21200736, 0.13413203, 8.889513e-08)
+bones/9/rotation = Quaternion(-0.33580527, 0.053190347, 0.73883146, 0.58183646)
+bones/10/rotation = Quaternion(2.3952174e-08, 5.334798e-08, 0.51793927, 0.85541743)
+bones/12/rotation = Quaternion(-0.2413176, 0.56643724, -0.080363, 0.7838727)
+bones/13/position = Vector3(-5.0984e-09, 0.096125126, -0.057500083)
+bones/13/rotation = Quaternion(-1.4124479e-08, -1.7485677e-08, 0.7071068, 0.7071067)
+bones/14/rotation = Quaternion(-5.806539e-11, -0.031341746, -1.8801252e-09, 0.9995088)
+bones/15/position = Vector3(0.17094505, 0.11358729, 1.1826271e-08)
+bones/15/rotation = Quaternion(0.99618554, 0.047913603, 0.05664271, -0.04593868)
+bones/16/rotation = Quaternion(0.16501503, 6.3501986e-08, -1.1030225e-07, 0.9862911)
+bones/17/rotation = Quaternion(-0.53372914, -0.26089546, -1.7158605e-05, 0.80440474)
+bones/18/rotation = Quaternion(0.00026351918, 0.92021555, -0.39141217, -5.9560203e-05)
+bones/19/position = Vector3(-0.17094505, 0.11358729, 1.7414205e-08)
+bones/19/rotation = Quaternion(0.9973222, -0.029457362, 0.031529274, 0.05904857)
+bones/20/rotation = Quaternion(0.27400863, -6.3308185e-08, 1.8998516e-07, 0.96172726)
+bones/21/rotation = Quaternion(-0.55903965, 0.11451283, -0.008627579, 0.8211498)
+bones/22/rotation = Quaternion(-8.9307796e-05, 0.9202216, -0.3913979, 2.018691e-05)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="1" unique_id=644310108]
+libraries/character_animations_example = ExtResource("2_mcn6a")
+autoplay = &"character_animations_example/Melee_1H_Attack_Slice_Horizontal"

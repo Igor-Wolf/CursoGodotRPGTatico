@@ -1,0 +1,637 @@
+[gd_scene format=3 uid="uid://dkqjygy2r85j7"]
+
+[ext_resource type="PackedScene" uid="uid://xtdlmkrvlgcu" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/floor_dirt_large.fbx" id="1_1oqi5"]
+[ext_resource type="PackedScene" uid="uid://bs13g1btke43w" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/floor_dirt_large_rocky.fbx" id="2_yxkdq"]
+[ext_resource type="PackedScene" uid="uid://bofk7wv72l2ll" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/floor_dirt_small_A.fbx" id="3_mhj6d"]
+[ext_resource type="PackedScene" uid="uid://cepa0au81qegx" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/floor_dirt_small_B.fbx" id="4_o53ml"]
+[ext_resource type="PackedScene" uid="uid://bj6ul1noi5ajr" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/floor_dirt_small_C.fbx" id="5_t5dei"]
+[ext_resource type="PackedScene" uid="uid://sjbjgflup7pd" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/floor_dirt_small_corner.fbx" id="6_b2o6s"]
+[ext_resource type="PackedScene" uid="uid://dpkxn330rvutb" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/floor_dirt_small_D.fbx" id="7_52m6q"]
+[ext_resource type="PackedScene" uid="uid://dndt8xbpqdk72" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/floor_dirt_small_weeds.fbx" id="8_neod6"]
+[ext_resource type="PackedScene" uid="uid://dwtebgrwoupfr" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/floor_foundation_allsides.fbx" id="9_q0e01"]
+[ext_resource type="PackedScene" uid="uid://vewpfk3v2muy" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/floor_foundation_corner.fbx" id="10_nmq7j"]
+[ext_resource type="PackedScene" uid="uid://c3fdjwl5xj163" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/floor_foundation_diagonal_corner.fbx" id="11_s6efg"]
+[ext_resource type="PackedScene" uid="uid://b1rfa027bf608" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/floor_foundation_front.fbx" id="12_q1hx5"]
+[ext_resource type="PackedScene" uid="uid://cxnw16xi2m0pm" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/floor_foundation_front_and_back.fbx" id="13_gqhoj"]
+[ext_resource type="PackedScene" uid="uid://c2q5tnwrbjgpp" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/floor_foundation_front_and_sides.fbx" id="14_vvtdc"]
+[ext_resource type="PackedScene" uid="uid://b0n1t6l2tncy" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/floor_tile_big_grate.fbx" id="15_xtnx0"]
+[ext_resource type="PackedScene" uid="uid://b0dxvp7sdpmd3" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/floor_tile_big_grate_open.fbx" id="16_ux03n"]
+[ext_resource type="PackedScene" uid="uid://ddbuvtq50fxjk" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/floor_tile_big_spikes.fbx" id="17_8wxy4"]
+[ext_resource type="PackedScene" uid="uid://dwspu4tnrth5" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/floor_tile_extralarge_grates.fbx" id="18_j1ckv"]
+[ext_resource type="PackedScene" uid="uid://dpkujwhhkl4ey" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/floor_tile_extralarge_grates_open.fbx" id="19_yfjhj"]
+[ext_resource type="PackedScene" uid="uid://m4p0q6f3d6f0" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/floor_tile_grate.fbx" id="20_xp080"]
+[ext_resource type="PackedScene" uid="uid://b3xh77f45n1pu" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/floor_tile_grate_open.fbx" id="21_msu67"]
+[ext_resource type="PackedScene" uid="uid://dd1gsvftnoed2" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/floor_tile_large.fbx" id="22_wgq5a"]
+[ext_resource type="PackedScene" uid="uid://cu41rfraifxbq" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/floor_tile_large_rocks.fbx" id="23_h75i0"]
+[ext_resource type="PackedScene" uid="uid://bedrg3p5pcxf5" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/floor_tile_small.fbx" id="24_fjyx7"]
+[ext_resource type="PackedScene" uid="uid://bohh0scmel6m0" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/floor_tile_small_broken_A.fbx" id="25_q8mro"]
+[ext_resource type="PackedScene" uid="uid://b38npqb5e35eb" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/floor_tile_small_broken_B.fbx" id="26_s8r2q"]
+[ext_resource type="PackedScene" uid="uid://ryc7kw6gkux7" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/floor_tile_small_corner.fbx" id="27_1oo52"]
+[ext_resource type="PackedScene" uid="uid://cemcv18bpfr2l" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/floor_tile_small_decorated.fbx" id="28_2ws4b"]
+[ext_resource type="PackedScene" uid="uid://duhc78owxnxcp" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/floor_tile_small_weeds_A.fbx" id="29_nxv5w"]
+[ext_resource type="PackedScene" uid="uid://ccs83ln5hj1k" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/floor_tile_small_weeds_B.fbx" id="30_3occ4"]
+[ext_resource type="PackedScene" uid="uid://dewqjlhrvq1d7" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/floor_wood_large.fbx" id="31_74ipd"]
+[ext_resource type="PackedScene" uid="uid://ba07c8tpdasum" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/floor_wood_large_dark.fbx" id="32_q4dkk"]
+[ext_resource type="PackedScene" uid="uid://dcn1oqg0tsvfh" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/floor_wood_small.fbx" id="33_l8n8h"]
+[ext_resource type="PackedScene" uid="uid://bcjrqcxkhlj4" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/floor_wood_small_dark.fbx" id="34_iepb8"]
+[ext_resource type="PackedScene" uid="uid://cvdfaaby41grk" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/keg.fbx" id="35_jl7lc"]
+[ext_resource type="PackedScene" uid="uid://bkyvmuqvi8xc6" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/keg_decorated.fbx" id="36_kgvm8"]
+[ext_resource type="PackedScene" uid="uid://bueuq3h2ycd2" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/key.fbx" id="37_uw3hb"]
+[ext_resource type="PackedScene" uid="uid://h8r0vih2o3mc" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/keyring.fbx" id="38_tclpf"]
+[ext_resource type="PackedScene" uid="uid://dpo5kjnnh4k5m" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/keyring_hanging.fbx" id="39_0r7t1"]
+[ext_resource type="PackedScene" uid="uid://k7l3g6yy6aa5" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/pillar.fbx" id="40_34x6g"]
+[ext_resource type="PackedScene" uid="uid://cdodmokregcds" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/pillar_decorated.fbx" id="41_iru1s"]
+[ext_resource type="PackedScene" uid="uid://db1gpje74r4dv" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/plate.fbx" id="42_v2nkr"]
+[ext_resource type="PackedScene" uid="uid://dtjevh38x01v2" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/plate_food_A.fbx" id="43_pqpbv"]
+[ext_resource type="PackedScene" uid="uid://b25mpflakfsv5" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/plate_food_B.fbx" id="44_je034"]
+[ext_resource type="PackedScene" uid="uid://chnifxaj6apcx" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/plate_small.fbx" id="45_pwopo"]
+[ext_resource type="PackedScene" uid="uid://b5hl0o5b5ev0k" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/plate_stack.fbx" id="46_2w2uo"]
+[ext_resource type="PackedScene" uid="uid://dl7grfcswiabt" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/rubble_half.fbx" id="47_eafla"]
+[ext_resource type="PackedScene" uid="uid://c12oy4xrneaec" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/rubble_large.fbx" id="48_gba07"]
+[ext_resource type="PackedScene" uid="uid://h03nkjdidi0p" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/shelf_large.fbx" id="49_glvtw"]
+[ext_resource type="PackedScene" uid="uid://cu6bme3gwwj1t" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/shelf_small.fbx" id="50_n44ih"]
+[ext_resource type="PackedScene" uid="uid://bqybgl44v2iu0" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/shelf_small_candles.fbx" id="51_8npmp"]
+[ext_resource type="PackedScene" uid="uid://c4rnlalwqy1kg" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/shelves.fbx" id="52_ebx0d"]
+[ext_resource type="PackedScene" uid="uid://cpdtcuamb7mkm" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/stairs.fbx" id="53_y80sy"]
+[ext_resource type="PackedScene" uid="uid://d36pb1uuwpc5e" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/stairs_long.fbx" id="54_wtgfk"]
+[ext_resource type="PackedScene" uid="uid://3weid622jj2y" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/stairs_long_modular_center.fbx" id="55_hary6"]
+[ext_resource type="PackedScene" uid="uid://cxi3tt314x0ka" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/stairs_long_modular_left.fbx" id="56_f7us0"]
+[ext_resource type="PackedScene" uid="uid://4u77rfeuus1d" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/stairs_long_modular_right.fbx" id="57_s3dgp"]
+[ext_resource type="PackedScene" uid="uid://dg63nfktsu34a" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/stairs_modular_center.fbx" id="58_y7u5v"]
+[ext_resource type="PackedScene" uid="uid://cjb5oa4nubebk" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/stairs_modular_left.fbx" id="59_tkarm"]
+[ext_resource type="PackedScene" uid="uid://8a01thv3h8pd" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/stairs_modular_right.fbx" id="60_iuc1g"]
+[ext_resource type="PackedScene" uid="uid://drmhr0gp5f6fp" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/stairs_narrow.fbx" id="61_7lt88"]
+[ext_resource type="PackedScene" uid="uid://brf0i0st5cmyt" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/stairs_walled.fbx" id="62_ylq57"]
+[ext_resource type="PackedScene" uid="uid://d2hxpp3lq07qc" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/stairs_wall_left.fbx" id="63_3w1xr"]
+[ext_resource type="PackedScene" uid="uid://dwqjqxq7ekk5x" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/stairs_wall_right.fbx" id="64_24cho"]
+[ext_resource type="PackedScene" uid="uid://pefsd8y2odju" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/stairs_wide.fbx" id="65_pt8q4"]
+[ext_resource type="PackedScene" uid="uid://ciwo3rloi6pmg" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/stairs_wood.fbx" id="66_mxkhb"]
+[ext_resource type="PackedScene" uid="uid://do3wiiu6fymcv" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/stairs_wood_decorated.fbx" id="67_x4q0s"]
+[ext_resource type="PackedScene" uid="uid://cg06mtk3yur1q" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/stool.fbx" id="68_ef3cg"]
+[ext_resource type="PackedScene" uid="uid://bnegafhenj8dp" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/sword_shield.fbx" id="69_ylcgq"]
+[ext_resource type="PackedScene" uid="uid://cpybb5atyk5vj" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/sword_shield_broken.fbx" id="70_602j0"]
+[ext_resource type="PackedScene" uid="uid://ct30c2iw14cvm" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/sword_shield_gold.fbx" id="71_0msyu"]
+[ext_resource type="PackedScene" uid="uid://dcy6u351a56xp" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/table_long.fbx" id="72_2bro3"]
+[ext_resource type="PackedScene" uid="uid://cnoy16cwxgaa4" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/table_long_broken.fbx" id="73_1co7n"]
+[ext_resource type="PackedScene" uid="uid://4ooghod6ls8o" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/table_long_decorated_A.fbx" id="74_0tq51"]
+[ext_resource type="PackedScene" uid="uid://dgo5q85fiodn3" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/table_long_decorated_C.fbx" id="75_xdowl"]
+[ext_resource type="PackedScene" uid="uid://5av5ituw11eg" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/table_long_tablecloth.fbx" id="76_5lo0f"]
+[ext_resource type="PackedScene" uid="uid://c8aaovy4byso4" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/table_long_tablecloth_decorated_A.fbx" id="77_ba1wj"]
+[ext_resource type="PackedScene" uid="uid://b45mx63ftcext" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/table_medium.fbx" id="78_0jfbl"]
+[ext_resource type="PackedScene" uid="uid://y8tk26esog82" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/table_medium_broken.fbx" id="79_ht5ti"]
+[ext_resource type="PackedScene" uid="uid://biku6cqbpi7mt" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/table_medium_decorated_A.fbx" id="80_b5xbw"]
+[ext_resource type="PackedScene" uid="uid://bci052gq71jof" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/table_medium_tablecloth.fbx" id="81_8j3kc"]
+[ext_resource type="PackedScene" uid="uid://ddoemicj5p7uk" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/table_medium_tablecloth_decorated_B.fbx" id="82_g0i77"]
+[ext_resource type="PackedScene" uid="uid://w4drxj6uuaqi" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/table_small.fbx" id="83_ov01q"]
+[ext_resource type="PackedScene" uid="uid://vjmx12xlovqy" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/table_small_decorated_A.fbx" id="84_g7bq5"]
+[ext_resource type="PackedScene" uid="uid://l57ap37w01vn" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/table_small_decorated_B.fbx" id="85_3bhkt"]
+[ext_resource type="PackedScene" uid="uid://cum5e4sc2pl5r" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/torch.fbx" id="86_01tpd"]
+[ext_resource type="PackedScene" uid="uid://5qakhddnyk80" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/torch_lit.fbx" id="87_a0v8k"]
+[ext_resource type="PackedScene" uid="uid://fcrm1fcbrgxl" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/torch_mounted.fbx" id="88_jmdjm"]
+[ext_resource type="PackedScene" uid="uid://b1ilanda0hxmf" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/trunk_large_A.fbx" id="89_pvk7e"]
+[ext_resource type="PackedScene" uid="uid://cl4ygyvm341gn" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/trunk_large_B.fbx" id="90_7b5g8"]
+[ext_resource type="PackedScene" uid="uid://bipm3kxi003bt" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/trunk_large_C.fbx" id="91_mlg31"]
+[ext_resource type="PackedScene" uid="uid://do4tnms2jbyx4" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/trunk_medium_A.fbx" id="92_man6l"]
+[ext_resource type="PackedScene" uid="uid://d1pp4v6ajoc0j" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/trunk_medium_B.fbx" id="93_q64q8"]
+[ext_resource type="PackedScene" uid="uid://c8rhtq0qmcdtu" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/trunk_medium_C.fbx" id="94_2b2ux"]
+[ext_resource type="PackedScene" uid="uid://c8bs5sppkosqn" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/trunk_small_A.fbx" id="95_lvosh"]
+[ext_resource type="PackedScene" uid="uid://cxi5upxfgii41" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/trunk_small_B.fbx" id="96_rv4nn"]
+[ext_resource type="PackedScene" uid="uid://cnxjdlega8uek" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/trunk_small_C.fbx" id="97_7xqcq"]
+[ext_resource type="PackedScene" uid="uid://bc062c4s4srd5" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/wall.fbx" id="98_7ic1i"]
+[ext_resource type="PackedScene" uid="uid://djq3k8ow0nxby" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/wall_arched.fbx" id="99_m3rpt"]
+[ext_resource type="PackedScene" uid="uid://cacebwh4jep3b" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/wall_archedwindow_gated.fbx" id="100_xqiet"]
+[ext_resource type="PackedScene" uid="uid://d3s0n8xpl3gwg" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/wall_archedwindow_gated_scaffold.fbx" id="101_qo7nb"]
+[ext_resource type="PackedScene" uid="uid://b47v8j3p3m1u2" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/wall_archedwindow_open.fbx" id="102_cb0ho"]
+[ext_resource type="PackedScene" uid="uid://d1vgv32dl2xlj" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/wall_broken.fbx" id="103_86xqv"]
+[ext_resource type="PackedScene" uid="uid://wk0dbdw1bln7" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/wall_corner.fbx" id="104_huntu"]
+[ext_resource type="PackedScene" uid="uid://dr1l06su44uen" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/wall_corner_gated.fbx" id="105_luqv8"]
+[ext_resource type="PackedScene" uid="uid://yxleiulh8o1j" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/wall_corner_scaffold.fbx" id="106_ejg7s"]
+[ext_resource type="PackedScene" uid="uid://cj8iv4tmojg1o" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/wall_corner_small.fbx" id="107_g87rm"]
+[ext_resource type="PackedScene" uid="uid://chv8gqx2v7u5u" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/wall_cracked.fbx" id="108_axjwb"]
+[ext_resource type="PackedScene" uid="uid://bhnjn7iyj3auy" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/wall_crossing.fbx" id="109_m31m5"]
+[ext_resource type="PackedScene" uid="uid://yuskb26m2xpl" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/wall_doorway.fbx" id="110_8sdu6"]
+[ext_resource type="PackedScene" uid="uid://b8ut86plp4vwf" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/wall_doorway_scaffold.fbx" id="111_hf76h"]
+[ext_resource type="PackedScene" uid="uid://dy0fwiol0mmmu" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/wall_doorway_sides.fbx" id="112_jcyii"]
+[ext_resource type="PackedScene" uid="uid://dtalww544rtbp" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/wall_doorway_Tsplit.fbx" id="113_e8hrt"]
+[ext_resource type="PackedScene" uid="uid://dtw8kcfkgw4nt" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/wall_endcap.fbx" id="114_5g52v"]
+[ext_resource type="PackedScene" uid="uid://s67nse8isem1" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/wall_gated.fbx" id="115_beoe8"]
+[ext_resource type="PackedScene" uid="uid://ctk3wwofpon5i" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/wall_half.fbx" id="116_vjr1d"]
+[ext_resource type="PackedScene" uid="uid://dc4fc15uacqat" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/wall_half_endcap.fbx" id="117_jj05x"]
+[ext_resource type="PackedScene" uid="uid://d3u8gcpjhdymd" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/wall_half_endcap_sloped.fbx" id="118_mf0h5"]
+[ext_resource type="PackedScene" uid="uid://cilu1syglhjq3" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/wall_open_scaffold.fbx" id="119_ai1x0"]
+[ext_resource type="PackedScene" uid="uid://bamum3pj3c2fi" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/wall_pillar.fbx" id="120_2o47d"]
+[ext_resource type="PackedScene" uid="uid://ddmffidioujjy" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/wall_scaffold.fbx" id="121_kqkpf"]
+[ext_resource type="PackedScene" uid="uid://o84fvpudrg4m" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/wall_shelves.fbx" id="122_xcvqw"]
+[ext_resource type="PackedScene" uid="uid://dxgtw4m8swfvp" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/wall_sloped.fbx" id="123_xyexl"]
+[ext_resource type="PackedScene" uid="uid://chceup1b0t4et" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/wall_Tsplit.fbx" id="124_n5uap"]
+[ext_resource type="PackedScene" uid="uid://ddncnbrsetijr" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/wall_Tsplit_sloped.fbx" id="125_f8opx"]
+[ext_resource type="PackedScene" uid="uid://bslipmhgre8ct" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/wall_window_closed.fbx" id="126_rg7ud"]
+[ext_resource type="PackedScene" uid="uid://dapa7hk0mcpbp" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/wall_window_closed_scaffold.fbx" id="127_dglcv"]
+[ext_resource type="PackedScene" uid="uid://qem6uifwdcys" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/wall_window_open.fbx" id="128_kjj0f"]
+[ext_resource type="PackedScene" uid="uid://h1ipjrcm0fqy" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/wall_window_open_scaffold.fbx" id="129_6eebp"]
+[ext_resource type="PackedScene" uid="uid://mrj4qlco2n03" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/banner_blue.fbx" id="130_6im8w"]
+[ext_resource type="PackedScene" uid="uid://g2adgimev18u" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/banner_brown.fbx" id="131_8vsib"]
+[ext_resource type="PackedScene" uid="uid://7a6l3h78b1yt" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/banner_green.fbx" id="132_6w1fn"]
+[ext_resource type="PackedScene" uid="uid://dyfgdu1fnt64k" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/banner_patternA_blue.fbx" id="133_t6xsr"]
+[ext_resource type="PackedScene" uid="uid://d2kf2x1f7kxs1" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/banner_patternA_brown.fbx" id="134_o0er7"]
+[ext_resource type="PackedScene" uid="uid://c1fisddx8twcn" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/banner_patternA_green.fbx" id="135_e6esm"]
+[ext_resource type="PackedScene" uid="uid://djkm1lvwib2s1" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/banner_patternA_red.fbx" id="136_vm7tp"]
+[ext_resource type="PackedScene" uid="uid://btqrg6jpt1kjj" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/banner_patternA_white.fbx" id="137_mgpka"]
+[ext_resource type="PackedScene" uid="uid://ccif4wwpei72b" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/banner_patternA_yellow.fbx" id="138_hrcti"]
+[ext_resource type="PackedScene" uid="uid://d3aypkgdu84hm" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/banner_patternB_blue.fbx" id="139_5uhab"]
+[ext_resource type="PackedScene" uid="uid://cejvb5icx6akm" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/banner_patternB_brown.fbx" id="140_6fi74"]
+[ext_resource type="PackedScene" uid="uid://bwgufenr326po" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/banner_patternB_green.fbx" id="141_lnnrj"]
+[ext_resource type="PackedScene" uid="uid://ybcy5dqp6ct8" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/banner_patternB_red.fbx" id="142_rf6tt"]
+[ext_resource type="PackedScene" uid="uid://c4j720u1ra4d1" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/banner_patternB_white.fbx" id="143_ncny6"]
+[ext_resource type="PackedScene" uid="uid://fpfe7elg0ipq" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/banner_patternB_yellow.fbx" id="144_kn8d5"]
+[ext_resource type="PackedScene" uid="uid://btmbywroqgiq4" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/banner_patternC_blue.fbx" id="145_bqmuv"]
+[ext_resource type="PackedScene" uid="uid://byujnjxucjs6k" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/banner_patternC_brown.fbx" id="146_3yyhx"]
+[ext_resource type="PackedScene" uid="uid://dxx5c4dchgu35" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/banner_patternC_green.fbx" id="147_ga4u8"]
+[ext_resource type="PackedScene" uid="uid://chn7plbbkburf" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/banner_patternC_red.fbx" id="148_tb8bc"]
+[ext_resource type="PackedScene" uid="uid://c0x1qq0ihcjsu" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/banner_patternC_white.fbx" id="149_kvavh"]
+[ext_resource type="PackedScene" uid="uid://blbp0ylecmuck" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/banner_patternC_yellow.fbx" id="150_m6q8c"]
+[ext_resource type="PackedScene" uid="uid://ds2bpx4swfp0l" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/banner_red.fbx" id="151_di8y4"]
+[ext_resource type="PackedScene" uid="uid://dhjrmycsn1ke5" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/banner_shield_blue.fbx" id="152_cric0"]
+[ext_resource type="PackedScene" uid="uid://dys7mogto2c2j" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/banner_shield_brown.fbx" id="153_ee268"]
+[ext_resource type="PackedScene" uid="uid://dkd5eo5itb3rf" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/banner_shield_green.fbx" id="154_i0vbq"]
+[ext_resource type="PackedScene" uid="uid://breopvog54ex0" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/banner_shield_red.fbx" id="155_1qxvv"]
+[ext_resource type="PackedScene" uid="uid://bfbc83pukhl16" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/banner_shield_white.fbx" id="156_2r5qv"]
+[ext_resource type="PackedScene" uid="uid://cwf3a5dasmo1k" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/banner_shield_yellow.fbx" id="157_2j5g5"]
+[ext_resource type="PackedScene" uid="uid://bry88da51u6v3" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/banner_thin_blue.fbx" id="158_3bjda"]
+[ext_resource type="PackedScene" uid="uid://cyv3v2u0h7346" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/banner_thin_brown.fbx" id="159_4is3s"]
+[ext_resource type="PackedScene" uid="uid://8oo1s5s2uw81" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/banner_thin_green.fbx" id="160_r33yv"]
+[ext_resource type="PackedScene" uid="uid://c4ekusg8kc73m" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/banner_thin_red.fbx" id="161_vwvbn"]
+[ext_resource type="PackedScene" uid="uid://ojvv1xq7vijo" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/banner_thin_white.fbx" id="162_kqwcv"]
+[ext_resource type="PackedScene" uid="uid://bivwfqinbagye" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/banner_thin_yellow.fbx" id="163_n3m64"]
+[ext_resource type="PackedScene" uid="uid://c02077c7xuxb6" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/banner_triple_blue.fbx" id="164_14oqn"]
+[ext_resource type="PackedScene" uid="uid://egiwsfbsxyja" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/banner_triple_brown.fbx" id="165_jhhw8"]
+[ext_resource type="PackedScene" uid="uid://db3xlusx4gvq" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/banner_triple_green.fbx" id="166_i66wa"]
+[ext_resource type="PackedScene" uid="uid://c70xa2fx8pk7q" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/banner_triple_red.fbx" id="167_c64by"]
+[ext_resource type="PackedScene" uid="uid://rw4a5r7fq85i" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/banner_triple_white.fbx" id="168_qtt36"]
+[ext_resource type="PackedScene" uid="uid://btl5if00o0jav" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/banner_triple_yellow.fbx" id="169_tfv8j"]
+[ext_resource type="PackedScene" uid="uid://cjpoyovaigqjs" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/banner_white.fbx" id="170_xoher"]
+[ext_resource type="PackedScene" uid="uid://copx17ropx1xp" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/banner_yellow.fbx" id="171_apqto"]
+[ext_resource type="PackedScene" uid="uid://b4kq0dnhurnmy" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/barrel_large.fbx" id="172_gmbms"]
+[ext_resource type="PackedScene" uid="uid://bv8yiu6ulsi8y" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/barrel_large_decorated.fbx" id="173_h0cw7"]
+[ext_resource type="PackedScene" uid="uid://dc5oytjktgbvw" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/barrel_small.fbx" id="174_rccwu"]
+[ext_resource type="PackedScene" uid="uid://t8a2k0wuvhbu" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/barrel_small_stack.fbx" id="175_r04b3"]
+[ext_resource type="PackedScene" uid="uid://byxu8o0j8bl5q" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/barrier.fbx" id="176_0lj20"]
+[ext_resource type="PackedScene" uid="uid://d0jri436lq3pl" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/barrier_column.fbx" id="177_mjs6q"]
+[ext_resource type="PackedScene" uid="uid://birab0mqj34vu" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/barrier_colum_half.fbx" id="178_pesje"]
+[ext_resource type="PackedScene" uid="uid://vhx7p5shu6c4" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/barrier_corner.fbx" id="179_oojqr"]
+[ext_resource type="PackedScene" uid="uid://drq8nnstsqk3t" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/barrier_half.fbx" id="180_nustt"]
+[ext_resource type="PackedScene" uid="uid://b7ohgcwiixipx" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/bed_decorated.fbx" id="181_cmnu3"]
+[ext_resource type="PackedScene" uid="uid://ci7gixwaaalcx" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/bed_floor.fbx" id="182_uup11"]
+[ext_resource type="PackedScene" uid="uid://djfxhc60sxrg7" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/bed_frame.fbx" id="183_wd4bv"]
+[ext_resource type="PackedScene" uid="uid://bx0cve0um32kg" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/bottle_A_brown.fbx" id="184_bv5p8"]
+[ext_resource type="PackedScene" uid="uid://bmqvu8k5du6sy" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/bottle_A_green.fbx" id="185_o8cu1"]
+[ext_resource type="PackedScene" uid="uid://ceg3677torgwq" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/bottle_A_labeled_brown.fbx" id="186_wj7t3"]
+[ext_resource type="PackedScene" uid="uid://cu7anyjgfl6f2" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/bottle_A_labeled_green.fbx" id="187_xihce"]
+[ext_resource type="PackedScene" uid="uid://h222csa3xjsa" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/bottle_B_brown.fbx" id="188_ykh8s"]
+[ext_resource type="PackedScene" uid="uid://b7cwijfw4jnn6" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/bottle_B_green.fbx" id="189_da4is"]
+[ext_resource type="PackedScene" uid="uid://iwg1ni1up4j4" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/bottle_C_brown.fbx" id="190_107q6"]
+[ext_resource type="PackedScene" uid="uid://lhxate50w7vj" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/bottle_C_green.fbx" id="191_w704u"]
+[ext_resource type="PackedScene" uid="uid://dfhhkg1i8gr11" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/box_large.fbx" id="192_nl7py"]
+[ext_resource type="PackedScene" uid="uid://c283iabra36cy" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/box_small.fbx" id="193_8jbnt"]
+[ext_resource type="PackedScene" uid="uid://bacynpfs0seob" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/box_small_decorated.fbx" id="194_70u2n"]
+[ext_resource type="PackedScene" uid="uid://nadivi6vjt7g" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/box_stacked.fbx" id="195_ym5f8"]
+[ext_resource type="PackedScene" uid="uid://cciy6w0gji8rt" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/candle.fbx" id="196_yc16q"]
+[ext_resource type="PackedScene" uid="uid://66ugi5g1kcvq" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/candle_lit.fbx" id="197_csdal"]
+[ext_resource type="PackedScene" uid="uid://cx5jwnmvescmy" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/candle_melted.fbx" id="198_7ln6f"]
+[ext_resource type="PackedScene" uid="uid://d0wfpoi04fch8" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/candle_thin.fbx" id="199_m2q2s"]
+[ext_resource type="PackedScene" uid="uid://cr1paawvi1nut" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/candle_thin_lit.fbx" id="200_jcebi"]
+[ext_resource type="PackedScene" uid="uid://dra2r1a1qodn5" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/candle_triple.fbx" id="201_1wo0u"]
+[ext_resource type="PackedScene" uid="uid://cvwfni024jarr" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/ceiling_tile.fbx" id="202_2tge2"]
+[ext_resource type="PackedScene" uid="uid://dicvtlk7q2oyb" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/chair.fbx" id="203_cdp3a"]
+[ext_resource type="PackedScene" uid="uid://n82xhv832qar" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/chest.fbx" id="204_ucxpk"]
+[ext_resource type="PackedScene" uid="uid://bewsstok4kh2f" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/chest_gold.fbx" id="205_buwol"]
+[ext_resource type="PackedScene" uid="uid://bj5jectc5gquw" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/coin.fbx" id="206_oasmr"]
+[ext_resource type="PackedScene" uid="uid://c1aax4ry0nvp6" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/coin_stack_large.fbx" id="207_yhhja"]
+[ext_resource type="PackedScene" uid="uid://bvrsba4wf6oq0" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/coin_stack_medium.fbx" id="208_lsntj"]
+[ext_resource type="PackedScene" uid="uid://cw7os6i3y70uw" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/coin_stack_small.fbx" id="209_e60or"]
+[ext_resource type="PackedScene" uid="uid://blmsu7lc2s8ib" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/column.fbx" id="210_kp5x1"]
+[ext_resource type="PackedScene" uid="uid://bui00r72xw8y8" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/crates_stacked.fbx" id="211_on2xg"]
+
+[node name="ExampleMeshLibrary" type="Node3D" unique_id=1362719727]
+
+[node name="floor_dirt_large" parent="." unique_id=2124952521 instance=ExtResource("1_1oqi5")]
+
+[node name="floor_dirt_large_rocky" parent="." unique_id=1099049105 instance=ExtResource("2_yxkdq")]
+
+[node name="floor_dirt_small_A" parent="." unique_id=980564275 instance=ExtResource("3_mhj6d")]
+
+[node name="floor_dirt_small_B" parent="." unique_id=2142763330 instance=ExtResource("4_o53ml")]
+
+[node name="floor_dirt_small_C" parent="." unique_id=1282011204 instance=ExtResource("5_t5dei")]
+
+[node name="floor_dirt_small_corner" parent="." unique_id=526011073 instance=ExtResource("6_b2o6s")]
+
+[node name="floor_dirt_small_D" parent="." unique_id=567194287 instance=ExtResource("7_52m6q")]
+
+[node name="floor_dirt_small_weeds" parent="." unique_id=1553210141 instance=ExtResource("8_neod6")]
+
+[node name="floor_foundation_allsides" parent="." unique_id=483804422 instance=ExtResource("9_q0e01")]
+
+[node name="floor_foundation_corner" parent="." unique_id=1013168724 instance=ExtResource("10_nmq7j")]
+
+[node name="floor_foundation_diagonal_corner" parent="." unique_id=1461366923 instance=ExtResource("11_s6efg")]
+
+[node name="floor_foundation_front" parent="." unique_id=3760846 instance=ExtResource("12_q1hx5")]
+
+[node name="floor_foundation_front_and_back" parent="." unique_id=303757033 instance=ExtResource("13_gqhoj")]
+
+[node name="floor_foundation_front_and_sides" parent="." unique_id=25121870 instance=ExtResource("14_vvtdc")]
+
+[node name="floor_tile_big_grate" parent="." unique_id=2082589979 instance=ExtResource("15_xtnx0")]
+
+[node name="floor_tile_big_grate_open" parent="." unique_id=53214008 instance=ExtResource("16_ux03n")]
+
+[node name="floor_tile_big_spikes" parent="." unique_id=168893087 instance=ExtResource("17_8wxy4")]
+
+[node name="floor_tile_extralarge_grates" parent="." unique_id=2064728683 instance=ExtResource("18_j1ckv")]
+
+[node name="floor_tile_extralarge_grates_open" parent="." unique_id=770169073 instance=ExtResource("19_yfjhj")]
+
+[node name="floor_tile_grate" parent="." unique_id=1075397305 instance=ExtResource("20_xp080")]
+
+[node name="floor_tile_grate_open" parent="." unique_id=330611569 instance=ExtResource("21_msu67")]
+
+[node name="floor_tile_large" parent="." unique_id=746647633 instance=ExtResource("22_wgq5a")]
+
+[node name="floor_tile_large_rocks" parent="." unique_id=2130455792 instance=ExtResource("23_h75i0")]
+
+[node name="floor_tile_small" parent="." unique_id=285191413 instance=ExtResource("24_fjyx7")]
+
+[node name="floor_tile_small_broken_A" parent="." unique_id=2113185133 instance=ExtResource("25_q8mro")]
+
+[node name="floor_tile_small_broken_B" parent="." unique_id=1466179551 instance=ExtResource("26_s8r2q")]
+
+[node name="floor_tile_small_corner" parent="." unique_id=786708273 instance=ExtResource("27_1oo52")]
+
+[node name="floor_tile_small_decorated" parent="." unique_id=1131879497 instance=ExtResource("28_2ws4b")]
+
+[node name="floor_tile_small_weeds_A" parent="." unique_id=1463242271 instance=ExtResource("29_nxv5w")]
+
+[node name="floor_tile_small_weeds_B" parent="." unique_id=1258561491 instance=ExtResource("30_3occ4")]
+
+[node name="floor_wood_large" parent="." unique_id=504625568 instance=ExtResource("31_74ipd")]
+
+[node name="floor_wood_large_dark" parent="." unique_id=2050288725 instance=ExtResource("32_q4dkk")]
+
+[node name="floor_wood_small" parent="." unique_id=851742626 instance=ExtResource("33_l8n8h")]
+
+[node name="floor_wood_small_dark" parent="." unique_id=904435814 instance=ExtResource("34_iepb8")]
+
+[node name="keg" parent="." unique_id=665207277 instance=ExtResource("35_jl7lc")]
+
+[node name="keg_decorated" parent="." unique_id=412346545 instance=ExtResource("36_kgvm8")]
+
+[node name="key" parent="." unique_id=406467844 instance=ExtResource("37_uw3hb")]
+
+[node name="keyring" parent="." unique_id=795918589 instance=ExtResource("38_tclpf")]
+
+[node name="keyring_hanging" parent="." unique_id=720422246 instance=ExtResource("39_0r7t1")]
+
+[node name="pillar" parent="." unique_id=1409388726 instance=ExtResource("40_34x6g")]
+
+[node name="pillar_decorated" parent="." unique_id=791521118 instance=ExtResource("41_iru1s")]
+
+[node name="plate" parent="." unique_id=1416099170 instance=ExtResource("42_v2nkr")]
+
+[node name="plate_food_A" parent="." unique_id=1077685818 instance=ExtResource("43_pqpbv")]
+
+[node name="plate_food_B" parent="." unique_id=1457890621 instance=ExtResource("44_je034")]
+
+[node name="plate_small" parent="." unique_id=1658153012 instance=ExtResource("45_pwopo")]
+
+[node name="plate_stack" parent="." unique_id=1744644472 instance=ExtResource("46_2w2uo")]
+
+[node name="rubble_half" parent="." unique_id=2142181739 instance=ExtResource("47_eafla")]
+
+[node name="rubble_large" parent="." unique_id=2121755267 instance=ExtResource("48_gba07")]
+
+[node name="shelf_large" parent="." unique_id=707087743 instance=ExtResource("49_glvtw")]
+
+[node name="shelf_small" parent="." unique_id=1167323911 instance=ExtResource("50_n44ih")]
+
+[node name="shelf_small_candles" parent="." unique_id=1943282915 instance=ExtResource("51_8npmp")]
+
+[node name="shelves" parent="." unique_id=144458226 instance=ExtResource("52_ebx0d")]
+
+[node name="stairs" parent="." unique_id=612395034 instance=ExtResource("53_y80sy")]
+
+[node name="stairs_long" parent="." unique_id=882625819 instance=ExtResource("54_wtgfk")]
+
+[node name="stairs_long_modular_center" parent="." unique_id=899258720 instance=ExtResource("55_hary6")]
+
+[node name="stairs_long_modular_left" parent="." unique_id=403651452 instance=ExtResource("56_f7us0")]
+
+[node name="stairs_long_modular_right" parent="." unique_id=1772244791 instance=ExtResource("57_s3dgp")]
+
+[node name="stairs_modular_center" parent="." unique_id=1934622963 instance=ExtResource("58_y7u5v")]
+
+[node name="stairs_modular_left" parent="." unique_id=442044796 instance=ExtResource("59_tkarm")]
+
+[node name="stairs_modular_right" parent="." unique_id=571208738 instance=ExtResource("60_iuc1g")]
+
+[node name="stairs_narrow" parent="." unique_id=26926909 instance=ExtResource("61_7lt88")]
+
+[node name="stairs_walled" parent="." unique_id=2044809851 instance=ExtResource("62_ylq57")]
+
+[node name="stairs_wall_left" parent="." unique_id=1454467485 instance=ExtResource("63_3w1xr")]
+
+[node name="stairs_wall_right" parent="." unique_id=1618620492 instance=ExtResource("64_24cho")]
+
+[node name="stairs_wide" parent="." unique_id=248983664 instance=ExtResource("65_pt8q4")]
+
+[node name="stairs_wood" parent="." unique_id=715558381 instance=ExtResource("66_mxkhb")]
+
+[node name="stairs_wood_decorated" parent="." unique_id=1253322686 instance=ExtResource("67_x4q0s")]
+
+[node name="stool" parent="." unique_id=2099227918 instance=ExtResource("68_ef3cg")]
+
+[node name="sword_shield" parent="." unique_id=274149914 instance=ExtResource("69_ylcgq")]
+
+[node name="sword_shield_broken" parent="." unique_id=107920504 instance=ExtResource("70_602j0")]
+
+[node name="sword_shield_gold" parent="." unique_id=1413189075 instance=ExtResource("71_0msyu")]
+
+[node name="table_long" parent="." unique_id=43933785 instance=ExtResource("72_2bro3")]
+
+[node name="table_long_broken" parent="." unique_id=132876309 instance=ExtResource("73_1co7n")]
+
+[node name="table_long_decorated_A" parent="." unique_id=461725764 instance=ExtResource("74_0tq51")]
+
+[node name="table_long_decorated_C" parent="." unique_id=206863277 instance=ExtResource("75_xdowl")]
+
+[node name="table_long_tablecloth" parent="." unique_id=1134965206 instance=ExtResource("76_5lo0f")]
+
+[node name="table_long_tablecloth_decorated_A" parent="." unique_id=816289954 instance=ExtResource("77_ba1wj")]
+
+[node name="table_medium" parent="." unique_id=1075834357 instance=ExtResource("78_0jfbl")]
+
+[node name="table_medium_broken" parent="." unique_id=1795810602 instance=ExtResource("79_ht5ti")]
+
+[node name="table_medium_decorated_A" parent="." unique_id=1820225994 instance=ExtResource("80_b5xbw")]
+
+[node name="table_medium_tablecloth" parent="." unique_id=1968471927 instance=ExtResource("81_8j3kc")]
+
+[node name="table_medium_tablecloth_decorated_B" parent="." unique_id=265963718 instance=ExtResource("82_g0i77")]
+
+[node name="table_small" parent="." unique_id=1614257992 instance=ExtResource("83_ov01q")]
+
+[node name="table_small_decorated_A" parent="." unique_id=434354355 instance=ExtResource("84_g7bq5")]
+
+[node name="table_small_decorated_B" parent="." unique_id=322467314 instance=ExtResource("85_3bhkt")]
+
+[node name="torch" parent="." unique_id=540254578 instance=ExtResource("86_01tpd")]
+
+[node name="torch_lit" parent="." unique_id=230269092 instance=ExtResource("87_a0v8k")]
+
+[node name="torch_mounted" parent="." unique_id=674925898 instance=ExtResource("88_jmdjm")]
+
+[node name="trunk_large_A" parent="." unique_id=167541464 instance=ExtResource("89_pvk7e")]
+
+[node name="trunk_large_B" parent="." unique_id=1868720285 instance=ExtResource("90_7b5g8")]
+
+[node name="trunk_large_C" parent="." unique_id=2097855581 instance=ExtResource("91_mlg31")]
+
+[node name="trunk_medium_A" parent="." unique_id=915978835 instance=ExtResource("92_man6l")]
+
+[node name="trunk_medium_B" parent="." unique_id=80903148 instance=ExtResource("93_q64q8")]
+
+[node name="trunk_medium_C" parent="." unique_id=1060883072 instance=ExtResource("94_2b2ux")]
+
+[node name="trunk_small_A" parent="." unique_id=702577069 instance=ExtResource("95_lvosh")]
+
+[node name="trunk_small_B" parent="." unique_id=1329379609 instance=ExtResource("96_rv4nn")]
+
+[node name="trunk_small_C" parent="." unique_id=1110512150 instance=ExtResource("97_7xqcq")]
+
+[node name="wall" parent="." unique_id=1638514389 instance=ExtResource("98_7ic1i")]
+
+[node name="wall_arched" parent="." unique_id=315060790 instance=ExtResource("99_m3rpt")]
+
+[node name="wall_archedwindow_gated" parent="." unique_id=657030355 instance=ExtResource("100_xqiet")]
+
+[node name="wall_archedwindow_gated_scaffold" parent="." unique_id=1252571761 instance=ExtResource("101_qo7nb")]
+
+[node name="wall_archedwindow_open" parent="." unique_id=1731700527 instance=ExtResource("102_cb0ho")]
+
+[node name="wall_broken" parent="." unique_id=832692562 instance=ExtResource("103_86xqv")]
+
+[node name="wall_corner" parent="." unique_id=1581066258 instance=ExtResource("104_huntu")]
+
+[node name="wall_corner_gated" parent="." unique_id=1034738874 instance=ExtResource("105_luqv8")]
+
+[node name="wall_corner_scaffold" parent="." unique_id=1215542117 instance=ExtResource("106_ejg7s")]
+
+[node name="wall_corner_small" parent="." unique_id=1889246744 instance=ExtResource("107_g87rm")]
+
+[node name="wall_cracked" parent="." unique_id=1920781818 instance=ExtResource("108_axjwb")]
+
+[node name="wall_crossing" parent="." unique_id=1362149767 instance=ExtResource("109_m31m5")]
+
+[node name="wall_doorway" parent="." unique_id=1736254374 instance=ExtResource("110_8sdu6")]
+
+[node name="wall_doorway_scaffold" parent="." unique_id=812779539 instance=ExtResource("111_hf76h")]
+
+[node name="wall_doorway_sides" parent="." unique_id=1148193593 instance=ExtResource("112_jcyii")]
+
+[node name="wall_doorway_Tsplit" parent="." unique_id=243863364 instance=ExtResource("113_e8hrt")]
+
+[node name="wall_endcap" parent="." unique_id=585803696 instance=ExtResource("114_5g52v")]
+
+[node name="wall_gated" parent="." unique_id=1277757183 instance=ExtResource("115_beoe8")]
+
+[node name="wall_half" parent="." unique_id=138132811 instance=ExtResource("116_vjr1d")]
+
+[node name="wall_half_endcap" parent="." unique_id=12780105 instance=ExtResource("117_jj05x")]
+
+[node name="wall_half_endcap_sloped" parent="." unique_id=1170808172 instance=ExtResource("118_mf0h5")]
+
+[node name="wall_open_scaffold" parent="." unique_id=875922964 instance=ExtResource("119_ai1x0")]
+
+[node name="wall_pillar" parent="." unique_id=2045257 instance=ExtResource("120_2o47d")]
+
+[node name="wall_scaffold" parent="." unique_id=1132064525 instance=ExtResource("121_kqkpf")]
+
+[node name="wall_shelves" parent="." unique_id=2101477022 instance=ExtResource("122_xcvqw")]
+
+[node name="wall_sloped" parent="." unique_id=1162679996 instance=ExtResource("123_xyexl")]
+
+[node name="wall_Tsplit" parent="." unique_id=623712434 instance=ExtResource("124_n5uap")]
+
+[node name="wall_Tsplit_sloped" parent="." unique_id=1102298389 instance=ExtResource("125_f8opx")]
+
+[node name="wall_window_closed" parent="." unique_id=684796383 instance=ExtResource("126_rg7ud")]
+
+[node name="wall_window_closed_scaffold" parent="." unique_id=633546441 instance=ExtResource("127_dglcv")]
+
+[node name="wall_window_open" parent="." unique_id=60818491 instance=ExtResource("128_kjj0f")]
+
+[node name="wall_window_open_scaffold" parent="." unique_id=677322154 instance=ExtResource("129_6eebp")]
+
+[node name="banner_blue" parent="." unique_id=820818577 instance=ExtResource("130_6im8w")]
+
+[node name="banner_brown" parent="." unique_id=231564388 instance=ExtResource("131_8vsib")]
+
+[node name="banner_green" parent="." unique_id=1128470137 instance=ExtResource("132_6w1fn")]
+
+[node name="banner_patternA_blue" parent="." unique_id=473596062 instance=ExtResource("133_t6xsr")]
+
+[node name="banner_patternA_brown" parent="." unique_id=1699631224 instance=ExtResource("134_o0er7")]
+
+[node name="banner_patternA_green" parent="." unique_id=250682693 instance=ExtResource("135_e6esm")]
+
+[node name="banner_patternA_red" parent="." unique_id=1093362423 instance=ExtResource("136_vm7tp")]
+
+[node name="banner_patternA_white" parent="." unique_id=1193508816 instance=ExtResource("137_mgpka")]
+
+[node name="banner_patternA_yellow" parent="." unique_id=1496607824 instance=ExtResource("138_hrcti")]
+
+[node name="banner_patternB_blue" parent="." unique_id=1803828883 instance=ExtResource("139_5uhab")]
+
+[node name="banner_patternB_brown" parent="." unique_id=1553292528 instance=ExtResource("140_6fi74")]
+
+[node name="banner_patternB_green" parent="." unique_id=1604947651 instance=ExtResource("141_lnnrj")]
+
+[node name="banner_patternB_red" parent="." unique_id=1871518071 instance=ExtResource("142_rf6tt")]
+
+[node name="banner_patternB_white" parent="." unique_id=1300264812 instance=ExtResource("143_ncny6")]
+
+[node name="banner_patternB_yellow" parent="." unique_id=1592996494 instance=ExtResource("144_kn8d5")]
+
+[node name="banner_patternC_blue" parent="." unique_id=942184594 instance=ExtResource("145_bqmuv")]
+
+[node name="banner_patternC_brown" parent="." unique_id=1158831661 instance=ExtResource("146_3yyhx")]
+
+[node name="banner_patternC_green" parent="." unique_id=199271178 instance=ExtResource("147_ga4u8")]
+
+[node name="banner_patternC_red" parent="." unique_id=1361736403 instance=ExtResource("148_tb8bc")]
+
+[node name="banner_patternC_white" parent="." unique_id=1024786775 instance=ExtResource("149_kvavh")]
+
+[node name="banner_patternC_yellow" parent="." unique_id=243360175 instance=ExtResource("150_m6q8c")]
+
+[node name="banner_red" parent="." unique_id=1363536583 instance=ExtResource("151_di8y4")]
+
+[node name="banner_shield_blue" parent="." unique_id=1576183866 instance=ExtResource("152_cric0")]
+
+[node name="banner_shield_brown" parent="." unique_id=1413433696 instance=ExtResource("153_ee268")]
+
+[node name="banner_shield_green" parent="." unique_id=1871454506 instance=ExtResource("154_i0vbq")]
+
+[node name="banner_shield_red" parent="." unique_id=787338491 instance=ExtResource("155_1qxvv")]
+
+[node name="banner_shield_white" parent="." unique_id=935302281 instance=ExtResource("156_2r5qv")]
+
+[node name="banner_shield_yellow" parent="." unique_id=666487804 instance=ExtResource("157_2j5g5")]
+
+[node name="banner_thin_blue" parent="." unique_id=904237033 instance=ExtResource("158_3bjda")]
+
+[node name="banner_thin_brown" parent="." unique_id=1997799641 instance=ExtResource("159_4is3s")]
+
+[node name="banner_thin_green" parent="." unique_id=541816243 instance=ExtResource("160_r33yv")]
+
+[node name="banner_thin_red" parent="." unique_id=1331394362 instance=ExtResource("161_vwvbn")]
+
+[node name="banner_thin_white" parent="." unique_id=1625987760 instance=ExtResource("162_kqwcv")]
+
+[node name="banner_thin_yellow" parent="." unique_id=1732991031 instance=ExtResource("163_n3m64")]
+
+[node name="banner_triple_blue" parent="." unique_id=91131345 instance=ExtResource("164_14oqn")]
+
+[node name="banner_triple_brown" parent="." unique_id=484430165 instance=ExtResource("165_jhhw8")]
+
+[node name="banner_triple_green" parent="." unique_id=1815323188 instance=ExtResource("166_i66wa")]
+
+[node name="banner_triple_red" parent="." unique_id=1496937144 instance=ExtResource("167_c64by")]
+
+[node name="banner_triple_white" parent="." unique_id=270115967 instance=ExtResource("168_qtt36")]
+
+[node name="banner_triple_yellow" parent="." unique_id=771987446 instance=ExtResource("169_tfv8j")]
+
+[node name="banner_white" parent="." unique_id=1771887663 instance=ExtResource("170_xoher")]
+
+[node name="banner_yellow" parent="." unique_id=631298260 instance=ExtResource("171_apqto")]
+
+[node name="barrel_large" parent="." unique_id=599821003 instance=ExtResource("172_gmbms")]
+
+[node name="barrel_large_decorated" parent="." unique_id=2000103343 instance=ExtResource("173_h0cw7")]
+
+[node name="barrel_small" parent="." unique_id=48104001 instance=ExtResource("174_rccwu")]
+
+[node name="barrel_small_stack" parent="." unique_id=635122253 instance=ExtResource("175_r04b3")]
+
+[node name="barrier" parent="." unique_id=840463407 instance=ExtResource("176_0lj20")]
+
+[node name="barrier_column" parent="." unique_id=1370769267 instance=ExtResource("177_mjs6q")]
+
+[node name="barrier_colum_half" parent="." unique_id=2045149002 instance=ExtResource("178_pesje")]
+
+[node name="barrier_corner" parent="." unique_id=1399710981 instance=ExtResource("179_oojqr")]
+
+[node name="barrier_half" parent="." unique_id=1612619842 instance=ExtResource("180_nustt")]
+
+[node name="bed_decorated" parent="." unique_id=937522027 instance=ExtResource("181_cmnu3")]
+
+[node name="bed_floor" parent="." unique_id=1166305105 instance=ExtResource("182_uup11")]
+
+[node name="bed_frame" parent="." unique_id=1651110689 instance=ExtResource("183_wd4bv")]
+
+[node name="bottle_A_brown" parent="." unique_id=65918414 instance=ExtResource("184_bv5p8")]
+
+[node name="bottle_A_green" parent="." unique_id=1945718355 instance=ExtResource("185_o8cu1")]
+
+[node name="bottle_A_labeled_brown" parent="." unique_id=814563992 instance=ExtResource("186_wj7t3")]
+
+[node name="bottle_A_labeled_green" parent="." unique_id=995732138 instance=ExtResource("187_xihce")]
+
+[node name="bottle_B_brown" parent="." unique_id=825201852 instance=ExtResource("188_ykh8s")]
+
+[node name="bottle_B_green" parent="." unique_id=1532572100 instance=ExtResource("189_da4is")]
+
+[node name="bottle_C_brown" parent="." unique_id=1651732836 instance=ExtResource("190_107q6")]
+
+[node name="bottle_C_green" parent="." unique_id=167134461 instance=ExtResource("191_w704u")]
+
+[node name="box_large" parent="." unique_id=515165978 instance=ExtResource("192_nl7py")]
+
+[node name="box_small" parent="." unique_id=1551446209 instance=ExtResource("193_8jbnt")]
+
+[node name="box_small_decorated" parent="." unique_id=1201167519 instance=ExtResource("194_70u2n")]
+
+[node name="box_stacked" parent="." unique_id=1468378814 instance=ExtResource("195_ym5f8")]
+
+[node name="candle" parent="." unique_id=490424806 instance=ExtResource("196_yc16q")]
+
+[node name="candle_lit" parent="." unique_id=1108180574 instance=ExtResource("197_csdal")]
+
+[node name="candle_melted" parent="." unique_id=490882051 instance=ExtResource("198_7ln6f")]
+
+[node name="candle_thin" parent="." unique_id=488219106 instance=ExtResource("199_m2q2s")]
+
+[node name="candle_thin_lit" parent="." unique_id=1473100110 instance=ExtResource("200_jcebi")]
+
+[node name="candle_triple" parent="." unique_id=1204463535 instance=ExtResource("201_1wo0u")]
+
+[node name="ceiling_tile" parent="." unique_id=1610558072 instance=ExtResource("202_2tge2")]
+
+[node name="chair" parent="." unique_id=351126593 instance=ExtResource("203_cdp3a")]
+
+[node name="chest" parent="." unique_id=2061827796 instance=ExtResource("204_ucxpk")]
+
+[node name="chest_gold" parent="." unique_id=1271803188 instance=ExtResource("205_buwol")]
+
+[node name="coin" parent="." unique_id=1442373649 instance=ExtResource("206_oasmr")]
+
+[node name="coin_stack_large" parent="." unique_id=702577461 instance=ExtResource("207_yhhja")]
+
+[node name="coin_stack_medium" parent="." unique_id=1246218515 instance=ExtResource("208_lsntj")]
+
+[node name="coin_stack_small" parent="." unique_id=1755465623 instance=ExtResource("209_e60or")]
+
+[node name="column" parent="." unique_id=969690763 instance=ExtResource("210_kp5x1")]
+
+[node name="crates_stacked" parent="." unique_id=1608818549 instance=ExtResource("211_on2xg")]
