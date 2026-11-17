@@ -1,0 +1,66 @@
+[gd_scene format=3 uid="uid://bcufh4gs1x8bb"]
+
+[ext_resource type="PackedScene" uid="uid://5qakhddnyk80" path="res://import/KayKit_Dungeon_Pack_1.1_FREE/KayKit_Dungeon_Pack_1.1_FREE/Assets/fbx/torch_lit.fbx" id="1_5i13c"]
+[ext_resource type="Script" uid="uid://rblslvdn10pf" path="res://features/props/light_flicker.gd" id="2_gw51t"]
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_a52ka"]
+frequency = 0.0034
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_frvqy"]
+gravity = Vector3(0, 0.5, 0)
+turbulence_enabled = true
+turbulence_noise_strength = 5.4
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7obk3"]
+emission_enabled = true
+emission = Color(0.7647059, 0.42352942, 0.09411765, 1)
+emission_energy_multiplier = 1.7
+
+[sub_resource type="QuadMesh" id="QuadMesh_1iice"]
+material = SubResource("StandardMaterial3D_7obk3")
+size = Vector2(0.02, 0.02)
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_5i13c"]
+direction = Vector3(1, 20, 0)
+gravity = Vector3(0, 0.5, 0)
+turbulence_enabled = true
+turbulence_noise_strength = 6.38
+turbulence_noise_scale = 4.141
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_itf6d"]
+transparency = 1
+albedo_color = Color(0.654902, 0.65882355, 0.7058824, 0.07058824)
+
+[sub_resource type="QuadMesh" id="QuadMesh_nf4we"]
+material = SubResource("StandardMaterial3D_itf6d")
+size = Vector2(0.15, 0.15)
+
+[node name="torch" type="Node3D" unique_id=193248750]
+transform = Transform3D(1, 0, 0, 0, 0.961569, -0.27456337, 0, 0.27456337, 0.961569, 0, 0, 0)
+
+[node name="torch_lit" parent="." unique_id=230269092 instance=ExtResource("1_5i13c")]
+transform = Transform3D(0.25, 0, 0, 0, 0.25, 0, 0, 0, 0.25, 0, 0, 0)
+
+[node name="light" type="OmniLight3D" parent="." unique_id=173812475]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.13847283, 0)
+light_color = Color(0.83137256, 0.5176471, 0.08627451, 1)
+light_energy = 0.263
+script = ExtResource("2_gw51t")
+noise = SubResource("FastNoiseLite_a52ka")
+
+[node name="sparks" type="GPUParticles3D" parent="." unique_id=848972642]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.020519152, 0.11697099, -0.03339953)
+amount = 6
+explosiveness = 0.14
+randomness = 0.53
+process_material = SubResource("ParticleProcessMaterial_frvqy")
+draw_pass_1 = SubResource("QuadMesh_1iice")
+
+[node name="smoke" type="GPUParticles3D" parent="." unique_id=997856722]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.020519152, 0.202839, -0.057918005)
+amount = 9
+lifetime = 2.5599999999999996
+explosiveness = 0.14
+randomness = 0.53
+process_material = SubResource("ParticleProcessMaterial_5i13c")
+draw_pass_1 = SubResource("QuadMesh_nf4we")

@@ -3,7 +3,7 @@ class_name MainMenuContext extends Node3D
 signal start_game_requested
 @onready var ui_main_menu: UIMainMenu = %ui_main_menu
 @onready var ui_settings_menu: UISettingsMenu = %ui_settings_menu
-
+@onready var diorama_camera: Camera3D = %diorama_camera
 var _music_player: AudioStreamPlayer
 
 func build() -> void:
@@ -18,7 +18,7 @@ func bind_dependences(music_player: AudioStreamPlayer) -> void:
 
 func setup() -> void:
 	print("setup")
-	ui_main_menu.play_requested.connect(start_game_requested.emit)
+	ui_main_menu.play_requested.connect(handle_play)
 	ui_main_menu.quit_requested.connect(handle_quit)
 	ui_main_menu.load_requested.connect(handle_show_saved_games)
 	ui_main_menu.settings_requested.connect(handle_show_settings_menu)
@@ -29,6 +29,14 @@ func setup() -> void:
 	
 	handle_show_main_menu()
 	
+	
+	pass
+	
+func handle_play() -> void:
+	var camera_tween: Tween = create_tween()
+	ui_main_menu.hide()
+	camera_tween.tween_property(diorama_camera, "fov", 35.0, 0.5)
+	camera_tween.tween_callback(start_game_requested.emit)
 	
 	pass
 
