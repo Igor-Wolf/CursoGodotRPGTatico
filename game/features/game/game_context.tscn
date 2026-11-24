@@ -4,12 +4,14 @@
 [ext_resource type="PackedScene" uid="uid://qh1q7ays0m2c" path="res://features/map/map_context.tscn" id="2_t4pdl"]
 [ext_resource type="PackedScene" uid="uid://b3c3qngnvusup" path="res://features/mission/mission_context.tscn" id="3_ks568"]
 [ext_resource type="PackedScene" uid="uid://bhup2i8b35rsx" path="res://features/explorer/explorer_context.tscn" id="4_5fij2"]
+[ext_resource type="Resource" uid="uid://mi04m7qb4t85" path="res://features/mission/parameters/default.tres" id="5_ks568"]
 
 [node name="GameContext" type="Node3D" unique_id=41532916]
 script = ExtResource("1_bp3ee")
 map_context_scene = ExtResource("2_t4pdl")
 mission_context_scene = ExtResource("3_ks568")
 explorer_context_scene = ExtResource("4_5fij2")
+mission_params = ExtResource("5_ks568")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1769474793]
 

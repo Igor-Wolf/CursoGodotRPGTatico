@@ -1,6 +1,9 @@
 [gd_scene format=3 uid="uid://qh1q7ays0m2c"]
 
 [ext_resource type="Script" uid="uid://6f6vrq6rtnr6" path="res://features/map/map_context.gd" id="1_gh0an"]
+[ext_resource type="PackedScene" uid="uid://brpjl8il7gydg" path="res://features/map/mission_list_panel.tscn" id="2_8av2h"]
+[ext_resource type="PackedScene" uid="uid://bjwihjngh6npd" path="res://features/map/mission_detail_panel.tscn" id="3_183e8"]
+[ext_resource type="Script" uid="uid://dnu207iucy20m" path="res://features/map/mission_detail_panel.gd" id="4_e2oey"]
 
 [node name="MapContext" type="Node3D" unique_id=1282333158]
 script = ExtResource("1_gh0an")
@@ -16,3 +19,17 @@ offset_bottom = 213.0
 [node name="Label" type="Label" parent="CanvasLayer/HBoxContainer" unique_id=513197904]
 layout_mode = 2
 text = "Map Context"
+
+[node name="mission_list_panel" parent="CanvasLayer" unique_id=645665851 instance=ExtResource("2_8av2h")]
+unique_name_in_owner = true
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -169.0
+offset_right = 0.0
+offset_bottom = 237.0
+grow_horizontal = 0
+
+[node name="mission_detail_panel" parent="CanvasLayer" unique_id=1170371301 instance=ExtResource("3_183e8")]
+unique_name_in_owner = true
+script = ExtResource("4_e2oey")

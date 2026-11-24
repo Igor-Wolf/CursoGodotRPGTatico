@@ -1,0 +1,41 @@
+[gd_scene format=3 uid="uid://brpjl8il7gydg"]
+
+[ext_resource type="PackedScene" uid="uid://buqf1abxkqky5" path="res://features/ui/fancy_border.tscn" id="1_e6otv"]
+[ext_resource type="Script" uid="uid://o736bdlr8ec" path="res://features/map/mission_list_panel.gd" id="1_u3qak"]
+[ext_resource type="Theme" uid="uid://6a6143glf0rd" path="res://features/theme/main_theme.tres" id="2_u3qak"]
+
+[node name="mission_list_panel" type="PanelContainer" unique_id=645665851]
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_u3qak")
+
+[node name="fancy_border" parent="." unique_id=603539356 instance=ExtResource("1_e6otv")]
+layout_mode = 2
+theme = ExtResource("2_u3qak")
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=212842447]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer" unique_id=466187556]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainer" unique_id=1091082514]
+layout_mode = 2
+theme_type_variation = &"HeaderMedium"
+text = "Available Missions"
+
+[node name="available_mission_list" type="VBoxContainer" parent="MarginContainer/VBoxContainer" unique_id=346783487]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="Button" type="Button" parent="MarginContainer/VBoxContainer/available_mission_list" unique_id=451536746]
+layout_mode = 2
+text = "Name of mission"
+
+[node name="Button2" type="Button" parent="MarginContainer/VBoxContainer/available_mission_list" unique_id=263616342]
+layout_mode = 2
+text = "Name of mission"
+
+[node name="Button3" type="Button" parent="MarginContainer/VBoxContainer/available_mission_list" unique_id=1300173745]
+layout_mode = 2
+text = "Name of mission"
