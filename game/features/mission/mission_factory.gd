@@ -6,4 +6,5 @@ func generate_random(mission_params: MissionsParameters) -> MissionData:
 	var mission = MissionData.new()
 	mission.name= mission_params.possibleNames.pick_random()
 	mission.description = mission_params.possibleDescriptions.pick_random()
+	mission.map_pin_location = mission_params.possibleLocations.pick_random()
 	return mission

@@ -38,7 +38,7 @@ func handle_play() -> void:
 	camera_tween.tween_property(diorama_camera, "fov", 35.0, 0.5)
 	camera_tween.tween_callback(start_game_requested.emit)
 	
-	pass
+	
 
 func handle_quit() -> void:
 	get_tree().quit()
